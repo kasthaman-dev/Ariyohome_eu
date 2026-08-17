@@ -1,0 +1,14 @@
+# macOS
+.DS_Store
+
+# Vercel
+.vercel
+
+# Secrets — never commit these
+.env
+.env.local
+.env*.local
+
+# Editor / OS noise
+*.swp
+Thumbs.db
