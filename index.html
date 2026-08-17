@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ariyo Homes — Mūsdienīgas moduļu mājas jaunai dzīves kvalitātei</title>
+<meta name="description" content="Ariyo Homes ražo modernas moduļu mājas un moduļu ēkas no 25 līdz 120 m². Ilgtspējīgi materiāli, pielāgojami plānojumi, uzstādīšana dažās dienās, piegāde visā Eiropā.">
+<meta name="theme-color" content="#14160F">
+<link rel="canonical" href="https://ariyohomes.eu/">
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="lv_LV">
+<meta property="og:site_name" content="Ariyo Homes">
+<meta property="og:title" content="Ariyo Homes — Mūsdienīgas moduļu mājas">
+<meta property="og:description" content="Ilgtspējīgi, pārdomāti un pielāgojami mājokļi, kas pielāgojas tavām vajadzībām.">
+<meta property="og:url" content="https://ariyohomes.eu/">
+<meta property="og:image" content="https://ariyohomes.eu/assets/img/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="628">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="icon" href="assets/img/favicon-32.png" sizes="32x32">
+<link rel="icon" href="assets/img/logo-512.png" sizes="512x512">
+<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600&family=Manrope:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="preload" as="image" href="assets/img/hero.jpg" media="(min-width: 681px)" fetchpriority="high">
+<link rel="preload" as="image" href="assets/img/hero-mobile.jpg" media="(max-width: 680px)" fetchpriority="high">
+<link rel="stylesheet" href="assets/css/styles.css?v=20260817c">
+</head>
+<body>
+<a class="skip-link" href="#majas" data-i18n="skip">Pāriet uz saturu</a>
+
+<header class="site-header" id="site-header">
+  <div class="site-header__inner">
+    <a class="brand" href="#top" aria-label="Ariyo Homes">
+      <span class="brand__name">ARIYO</span>
+      <span class="brand__sub"><i></i><span>HOMES</span><i></i></span>
+    </a>
+
+    <nav class="nav" id="nav" aria-label="Galvenā navigācija">
+      <a href="#top" class="nav__link is-active" data-i18n="nav_home">SĀKUMS</a>
+      <a href="#majas" class="nav__link" data-i18n="nav_models">MĀJAS</a>
+      <a href="#planojumi" class="nav__link" data-i18n="nav_layouts">PLĀNOJUMI</a>
+      <a href="#uzstadisana" class="nav__link" data-i18n="nav_install">UZSTĀDĪŠANA</a>
+      <a href="#par-mums" class="nav__link" data-i18n="nav_about">PAR MUMS</a>
+      <a href="#kontakti" class="nav__link" data-i18n="nav_contact">KONTAKTI</a>
+      <a href="#kontakti" class="btn btn--solid nav__cta" data-i18n="nav_cta">SAZINĀTIES</a>
+    </nav>
+
+    <div class="header-actions">
+      <div class="lang" id="lang">
+        <button type="button" class="lang__toggle" id="lang-toggle" aria-haspopup="true" aria-expanded="false" aria-label="Valoda">
+          <span id="lang-current">LV</span><svg width="9" height="6" viewBox="0 0 9 6" aria-hidden="true"><path d="M1 1l3.5 3.5L8 1" fill="none" stroke="currentColor" stroke-width="1.4"/></svg>
+        </button>
+        <ul class="lang__menu" id="lang-menu" role="menu">
+          <li><button type="button" role="menuitem" data-lang="lv">Latviešu</button></li>
+          <li><button type="button" role="menuitem" data-lang="en">English</button></li>
+        </ul>
+      </div>
+      <a href="#kontakti" class="btn btn--solid btn--sm header-cta" data-i18n="nav_cta">SAZINĀTIES</a>
+      <button type="button" class="burger" id="burger" aria-controls="nav" aria-expanded="false" aria-label="Izvēlne">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero__scrim" aria-hidden="true"></div>
+
+    <div class="hero__inner">
+      <div class="hero__copy">
+        <h1 data-i18n="hero_title">Mūsdienīgas<br>moduļu mājas</h1>
+        <p class="hero__tagline" data-i18n="hero_tagline">JAUNAI DZĪVES KVALITĀTEI</p>
+        <p class="hero__lead" data-i18n="hero_lead">Ilgtspējīgi, pārdomāti un pielāgojami mājokļi, kas pielāgojas tavām vajadzībām.</p>
+
+        <!-- Absolutely positioned on desktop, so this sits wherever it reads
+             best in the mobile flow: between the intro and the buttons. -->
+        <picture class="hero__picture">
+          <source media="(max-width: 680px)" srcset="assets/img/hero-mobile.jpg" width="1080" height="636">
+          <img class="hero__bg" src="assets/img/hero.jpg" width="1920" height="716" alt="Ariyo moduļu māja vakara gaismā uz bruģēta laukuma" fetchpriority="high">
+        </picture>
+
+        <div class="hero__actions">
+          <a href="#majas" class="btn btn--solid" data-i18n="hero_btn_models">SKATĪT MĀJAS</a>
+          <a href="#kontakti" class="btn btn--ghost" data-i18n="hero_btn_start">SĀKT PROJEKTU</a>
+        </div>
+      </div>
+
+      <div class="hero__badge" aria-hidden="true">
+        <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#E7E9D6" stroke-width="1.2"><path d="M3 10.5 12 4l9 6.5V20a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1z"/><rect x="9.5" y="13.5" width="5" height="7.5"/></svg>
+        <span data-i18n="hero_badge">MĀJAS,<br>KURAS<br>PIELĀGOJAS<br>TEV</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURE STRIP -->
+  <section class="features" aria-label="Priekšrocības">
+    <div class="features__grid">
+      <div class="feature">
+        <svg viewBox="0 0 32 32" fill="none" stroke="#EDEFDF" stroke-width="1.1" aria-hidden="true"><path d="M4 13.5 16 4l12 9.5V27a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1z"/><g transform="translate(0 0.55)"><text x="16" y="23" text-anchor="middle" font-size="11" fill="#EDEFDF" stroke="none" font-family="Barlow, sans-serif">€</text></g></svg>
+        <div>
+          <h3 data-i18n="f1_t">PIEEJAMĪBA</h3>
+          <p data-i18n="f1_d">Gudrāks veids, kā iegūt papildu telpu bez augstām izmaksām un ilgajiem būvniecības termiņiem.</p>
+        </div>
+      </div>
+      <div class="feature">
+        <svg viewBox="0 0 32 32" fill="none" stroke="#EDEFDF" stroke-width="1.1" aria-hidden="true"><path d="M4 13.5 16 4l12 9.5V27a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1z"/><g transform="translate(0 0)" stroke-linejoin="round"><path d="M15.11 16.18 L15.17 14.93 L16.83 14.93 L16.89 16.18 A3.15 3.15 0 0 1 17.50 16.43 L18.43 15.59 L19.61 16.77 L18.77 17.70 A3.15 3.15 0 0 1 19.02 18.31 L20.27 18.37 L20.27 20.03 L19.02 20.09 A3.15 3.15 0 0 1 18.77 20.70 L19.61 21.63 L18.43 22.81 L17.50 21.97 A3.15 3.15 0 0 1 16.89 22.22 L16.83 23.47 L15.17 23.47 L15.11 22.22 A3.15 3.15 0 0 1 14.50 21.97 L13.57 22.81 L12.39 21.63 L13.23 20.70 A3.15 3.15 0 0 1 12.98 20.09 L11.73 20.03 L11.73 18.37 L12.98 18.31 A3.15 3.15 0 0 1 13.23 17.70 L12.39 16.77 L13.57 15.59 L14.50 16.43 A3.15 3.15 0 0 1 15.11 16.18 Z"/><circle cx="16" cy="19.2" r="1.45"/></g></svg>
+        <div>
+          <h3 data-i18n="f2_t">ĀTRA UZSTĀDĪŠANA</h3>
+          <p data-i18n="f2_d">Piegādājam gatavu uzstādīšanai uz sagatavotas vietas.</p>
+        </div>
+      </div>
+      <div class="feature">
+        <svg viewBox="0 0 32 32" fill="none" stroke="#EDEFDF" stroke-width="1.1" aria-hidden="true"><path d="M4 13.5 16 4l12 9.5V27a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1z"/><g transform="translate(0 -1.05)"><path d="M11 16h10v6h-6l-3 2.5V22h-1z"/></g></svg>
+        <div>
+          <h3 data-i18n="f3_t">PERSONĪGS ATBALSTS</h3>
+          <p data-i18n="f3_d">Mēs palīdzam jums visa procesa laikā.</p>
+        </div>
+      </div>
+      <div class="feature">
+        <svg viewBox="0 0 32 32" fill="none" stroke="#EDEFDF" stroke-width="1.1" aria-hidden="true"><path d="M4 13.5 16 4l12 9.5V27a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1z"/><g transform="translate(0.9 -0.8)"><path d="M12 16h4v2.2a1.8 1.8 0 1 1 0 3.6V24h-4v-2.2a1.8 1.8 0 1 1 0-3.6z"/><path d="M16 16h4v8h-4"/></g></svg>
+        <div>
+          <h3 data-i18n="f4_t">PILNĪBĀ PIELĀGOJAMA</h3>
+          <p data-i18n="f4_d">Izvēlieties no dažādiem plānojumiem, izmēriem un apdarēm, kas atbilst jūsu vajadzībām.</p>
+        </div>
+      </div>
+      <div class="feature">
+        <svg viewBox="0 0 32 32" fill="none" stroke="#EDEFDF" stroke-width="1.1" aria-hidden="true"><path d="M4 13.5 16 4l12 9.5V27a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1z"/><g transform="translate(0 -0.8)"><circle cx="16" cy="20" r="4.5"/><path d="M11.5 20h9M16 15.5c1.4 1.4 2.1 3 2.1 4.5s-.7 3.1-2.1 4.5c-1.4-1.4-2.1-3-2.1-4.5s.7-3.1 2.1-4.5z"/></g></svg>
+        <div>
+          <h3 data-i18n="f5_t">PIEGĀDE VISĀ EIROPĀ</h3>
+          <p data-i18n="f5_d">Piegāde visā Eiropā – ērta piegāde līdz galamērķim.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT + DELIVERY SPLIT -->
+  <section class="split" id="par-mums">
+    <div class="split__text reveal">
+      <span class="eyebrow eyebrow--rule" data-i18n="about_eyebrow">PAR MUMS</span>
+      <h2 data-i18n="about_title">Mēs radām mājas,<br>kas iedvesmo.</h2>
+      <p data-i18n="about_text">Ariyo Homes piedāvā modernas moduļu mājas un moduļu ēkas, kas apvieno augstu kvalitāti, ilgtspējīgas tehnoloģijas un ātru uzstādīšanu.</p>
+      <a href="#majas" class="btn btn--outline" data-i18n="about_btn">UZZINĀT VAIRĀK</a>
+    </div>
+
+    <figure class="split__media">
+      <img src="assets/img/interior.jpg" width="1200" height="646" loading="lazy" decoding="async" alt="Moduļu mājas interjers ar atvērtu virtuvi un dzīvojamo istabu">
+    </figure>
+
+    <div class="split__text split__text--alt" id="uzstadisana">
+      <span class="eyebrow" data-i18n="delivery_eyebrow">ĀTRI. KVALITATĪVI. ILGTSPĒJĪGI.</span>
+      <h2 data-i18n="delivery_title">No rūpnīcas līdz tavai jaunajai mājai tikai dažās dienās.</h2>
+      <a href="#process" class="btn btn--outline btn--sm" data-i18n="delivery_btn">KĀ TAS NOTIEK?</a>
+    </div>
+
+    <figure class="split__media">
+      <img src="assets/img/delivery.jpg" width="1100" height="702" loading="lazy" decoding="async" alt="Moduļa piegāde ar celtni uz objektu">
+    </figure>
+  </section>
+
+  <!-- STATS -->
+  <section class="stats" aria-label="Fakti">
+    <div class="stat">
+      <svg viewBox="0 0 24 24" fill="none" stroke="#EDEFDF" stroke-width="1.1" aria-hidden="true"><path d="M3 10.5 12 4l9 6.5V20a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1z"/><rect x="9.5" y="13.5" width="5" height="7.5"/></svg>
+      <div><strong>100+</strong><span data-i18n="stat_projects">Pabeigtu projektu</span></div>
+    </div>
+    <div class="stat">
+      <svg viewBox="0 0 24 24" fill="none" stroke="#EDEFDF" stroke-width="1.1" aria-hidden="true"><circle cx="9" cy="9" r="3"/><circle cx="16.5" cy="10" r="2.4"/><path d="M3 19c0-3 2.7-5 6-5s6 2 6 5M15.5 19c0-2 1-3.4 2.6-3.9"/></svg>
+      <div><strong>250+</strong><span data-i18n="stat_clients">Apmierinātu klientu</span></div>
+    </div>
+    <div class="stat">
+      <svg viewBox="0 0 24 24" fill="none" stroke="#EDEFDF" stroke-width="1.1" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.6 3.8 5.7 3.8 9S14.5 18.4 12 21c-2.5-2.6-3.8-5.7-3.8-9S9.5 5.6 12 3z"/></svg>
+      <div><span class="stat__plain" data-i18n="stat_europe">Piegāde visā Eiropā</span></div>
+    </div>
+    <div class="stat">
+      <svg viewBox="0 0 24 24" fill="none" stroke="#EDEFDF" stroke-width="1.1" aria-hidden="true"><path d="M12 20S3.8 14.6 3.8 9.2A4.2 4.2 0 0 1 12 7.3a4.2 4.2 0 0 1 8.2 1.9C20.2 14.6 12 20 12 20z"/></svg>
+      <div><span class="stat__plain" data-i18n="stat_care">Ražots ar rūpēm</span></div>
+    </div>
+  </section>
+
+  <!-- MODELS -->
+  <section class="models" id="majas">
+    <div class="section-head">
+      <div>
+        <span class="eyebrow" data-i18n="models_eyebrow">MĀJU MODEĻI</span>
+        <h2 class="display" data-i18n="models_title">IZVĒLIES SAVU MODULI</h2>
+      </div>
+      <p class="section-head__lead" data-i18n="models_lead">Katrs modelis ir pielāgojams — plānojums, apdare un tehniskais aprīkojums tiek saskaņots ar tavām vajadzībām.</p>
+    </div>
+
+    <div class="models__grid">
+      <article class="card reveal">
+        <div class="card__media">
+          <div class="slides" tabindex="0" aria-label="Studio attēli">
+            <img src="assets/img/model-1.jpg?v=2" width="1100" height="614" loading="lazy" decoding="async" alt="Studio — kompakta moduļu studija ar plašu koka terasi">
+            <img src="assets/img/model-1-2.jpg" width="1000" height="378" loading="lazy" decoding="async" alt="Studio ar koka apdari un terasi vakara apgaismojumā">
+            <img src="assets/img/model-1-3.jpg" width="1000" height="594" loading="lazy" decoding="async" alt="Studio ar gaišu fasādi pie ezera">
+          </div>
+        </div>
+        <div class="card__body">
+          <div class="card__head">
+            <h3>STUDIO</h3><span class="card__area" data-i18n="m1_area">38,6 m²</span>
+          </div>
+          <p data-i18n="m1_desc">Kompakta studija viesu namiņam, birojam vai īstermiņa īrei.</p>
+          <div class="card__meta">
+            <span data-i18n="m1_rooms">1 istaba</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="card reveal">
+        <div class="card__media">
+          <div class="slides" tabindex="0" aria-label="Duo attēli">
+            <img src="assets/img/model-2-3.jpg" width="1100" height="614" loading="lazy" decoding="async" alt="Duo — divu istabu moduļu māja ar koka apdari, terasi un āra sēdvietu">
+            <img src="assets/img/model-2-2.jpg" width="1100" height="614" loading="lazy" decoding="async" alt="Duo ar nojumi klātu terasi un stiklotu fasādi ezera krastā">
+          </div>
+        </div>
+        <div class="card__body">
+          <div class="card__head">
+            <h3>DUO</h3><span class="card__area" data-i18n="m2_area">58,9 m²</span>
+          </div>
+          <p data-i18n="m2_desc">Divu istabu plānojums ar atvērtu virtuvi un terasi visā fasādes garumā.</p>
+          <div class="card__meta">
+            <span data-i18n="m2_rooms">2 istabas</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="card reveal">
+        <div class="card__media">
+          <div class="slides" tabindex="0" aria-label="Family attēli">
+            <img src="assets/img/model-3-1.jpg" width="1100" height="614" loading="lazy" decoding="async" alt="Family ar koka apdari un nojumi klātu terasi vakara gaismā">
+            <img src="assets/img/model-3-2.jpg" width="1100" height="614" loading="lazy" decoding="async" alt="Family ar gaišu fasādi un panorāmas logiem ezera krastā">
+            <img src="assets/img/model-3.jpg" width="860" height="584" loading="lazy" decoding="async" alt="Family — ģimenes moduļu mājas dzīvojamā zona ar virtuvi">
+          </div>
+        </div>
+        <div class="card__body">
+          <div class="card__head">
+            <h3>FAMILY</h3><span class="card__area" data-i18n="m3_area">77,2 m²</span>
+          </div>
+          <p data-i18n="m3_desc">Ģimenes māja no diviem moduļiem — pilnībā aprīkota jau piegādes brīdī.</p>
+          <div class="card__meta">
+            <span data-i18n="m3_rooms">4 istabas</span>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- PROCESS -->
+  <section class="process" id="process">
+    <div class="process__inner">
+      <div class="process__head">
+        <span class="eyebrow" data-i18n="process_eyebrow">UZSTĀDĪŠANA</span>
+        <h2 class="display" data-i18n="process_title">ČETRI SOĻI<br>LĪDZ MĀJAI</h2>
+      </div>
+      <ol class="process__steps">
+        <li class="step reveal">
+          <span class="step__num">01</span>
+          <h4 data-i18n="s1_t">KONSULTĀCIJA</h4>
+          <p data-i18n="s1_d">Noskaidrojam vajadzības, budžetu un zemesgabala iespējas.</p>
+        </li>
+        <li class="step reveal">
+          <span class="step__num">02</span>
+          <h4 data-i18n="s2_t">PROJEKTS</h4>
+          <p data-i18n="s2_d">Izvēlies gatavu plānojumu vai pielāgo to savām vajadzībām.</p>
+        </li>
+        <li class="step reveal">
+          <span class="step__num">03</span>
+          <h4 data-i18n="s3_t">PIEGĀDE</h4>
+          <p data-i18n="s3_d">No ražotnes uz jūsu izvēlētu vietu Eiropā</p>
+        </li>
+        <li class="step reveal">
+          <span class="step__num">04</span>
+          <h4 data-i18n="s4_t">UZSTĀDĪŠANA</h4>
+          <p data-i18n="s4_d">Piegāde un montāža objektā vienas dienas laikā.</p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- LAYOUTS CTA -->
+  <section class="cta" id="planojumi">
+    <img class="cta__bg" src="assets/img/cta.jpg" width="1100" height="934" loading="lazy" decoding="async" alt="Moduļu māja priežu mežā vakara apgaismojumā">
+    <div class="cta__scrim" aria-hidden="true"></div>
+    <div class="cta__inner">
+      <h2 class="display" data-i18n="cta_title">PLĀNOJUMS, KAS<br>PIELĀGOJAS TEV</h2>
+      <p data-i18n="cta_text">No 25 m² studijas līdz 120 m² ģimenes mājai — izvēlies plānojumu no kataloga vai izstrādā savu kopā ar mūsu arhitektiem.</p>
+      <a href="#kontakti" class="btn btn--solid" data-i18n="cta_btn">SKATĪT PLĀNOJUMUS</a>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="kontakti">
+    <div class="contact__grid">
+      <div class="contact__intro">
+        <span class="eyebrow" data-i18n="contact_eyebrow">KONTAKTI</span>
+        <h2 class="display" data-i18n="contact_title">SĀKSIM TAVU<br>PROJEKTU</h2>
+        <p data-i18n="contact_text">Atstāj ziņu — sazināsimies vienas darba dienas laikā un sagatavosim provizorisku piedāvājumu.</p>
+        <ul class="contact__list">
+          <li><a href="mailto:Info@ariyohomes.eu">Info@ariyohomes.eu</a></li>
+          <li><a href="tel:+37120941114">+371 20941114</a></li>
+          <li><span data-i18n="contact_city">Rīga, Latvija</span></li>
+        </ul>
+      </div>
+
+      <form class="form" id="contact-form" novalidate>
+        <div class="field">
+          <label for="f-name" data-i18n="form_name">Vārds</label>
+          <input id="f-name" name="name" type="text" autocomplete="name" required data-i18n-placeholder="form_name" placeholder="Vārds">
+          <span class="field__error" data-error></span>
+        </div>
+        <div class="field">
+          <label for="f-email" data-i18n="form_email">E-pasts</label>
+          <input id="f-email" name="email" type="email" autocomplete="email" required data-i18n-placeholder="form_email" placeholder="E-pasts">
+          <span class="field__error" data-error></span>
+        </div>
+        <div class="field field--wide">
+          <label for="f-model" data-i18n="form_model">Modelis vai platība</label>
+          <input id="f-model" name="model" type="text" data-i18n-placeholder="form_model" placeholder="Modelis vai platība">
+        </div>
+        <div class="field field--wide">
+          <label for="f-message" data-i18n="form_message">Pastāsti par savu ieceri</label>
+          <textarea id="f-message" name="message" rows="4" required data-i18n-placeholder="form_message" placeholder="Pastāsti par savu ieceri"></textarea>
+          <span class="field__error" data-error></span>
+        </div>
+        <!-- honeypot -->
+        <div class="hp" aria-hidden="true"><label for="f-company">Company</label><input id="f-company" name="company" type="text" tabindex="-1" autocomplete="off"></div>
+        <button type="submit" class="btn btn--solid form__submit" id="form-submit" data-i18n="form_submit">NOSŪTĪT PIETEIKUMU</button>
+        <p class="form__status" id="form-status" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="site-footer__top">
+    <a class="brand brand--footer" href="#top" aria-label="Ariyo Homes">
+      <span class="brand__name">ARIYO</span>
+      <span class="brand__sub brand__sub--plain">HOMES</span>
+    </a>
+    <div class="site-footer__cols">
+      <div>
+        <span class="site-footer__label" data-i18n="foot_homes">MĀJAS</span>
+        <a href="#majas" data-i18n="foot_modular">Moduļu mājas</a>
+        <a href="#planojumi" data-i18n="foot_layouts">Plānojumi</a>
+        <a href="#majas" data-i18n="foot_offices">Biroji un studijas</a>
+      </div>
+      <div>
+        <span class="site-footer__label" data-i18n="foot_company">UZŅĒMUMS</span>
+        <a href="#par-mums" data-i18n="foot_about">Par mums</a>
+        <a href="#process" data-i18n="foot_install">Uzstādīšana</a>
+        <a href="#kontakti" data-i18n="foot_contact">Kontakti</a>
+      </div>
+      <div>
+        <span class="site-footer__label" data-i18n="foot_follow">SEKO</span>
+        <a href="https://www.instagram.com/ariyo_homes/" rel="noopener" target="_blank">Instagram</a>
+        <a href="https://www.facebook.com/profile.php?id=61592323337285" rel="noopener" target="_blank">Facebook</a>
+        <a href="https://www.tiktok.com/@ariyohomes.eu" rel="noopener" target="_blank">TikTok</a>
+      </div>
+    </div>
+  </div>
+  <div class="site-footer__bottom">
+    <span data-i18n="foot_copy">© 2026 Ariyo Homes. Visas tiesības aizsargātas.</span>
+    <span data-i18n="foot_legal">Privātuma politika · Sīkdatnes</span>
+  </div>
+</footer>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Ariyo Homes",
+  "description": "Modernas moduļu mājas un moduļu ēkas no 25 līdz 120 m².",
+  "url": "https://ariyohomes.eu/",
+  "image": "https://ariyohomes.eu/assets/img/og.jpg",
+  "logo": "https://ariyohomes.eu/assets/img/logo-512.png",
+  "email": "Info@ariyohomes.eu",
+  "telephone": "+37120941114",
+  "address": { "@type": "PostalAddress", "addressLocality": "Rīga", "addressCountry": "LV" },
+  "areaServed": "Europe"
+}
+</script>
+
+<script src="assets/js/main.js?v=20260817c" defer></script>
+</body>
+</html>
