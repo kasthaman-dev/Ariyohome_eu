@@ -65,13 +65,16 @@ const I18N = {
     // Areas with a decimal need a per-language separator (LV comma, EN point).
     m1_s1_l: 'Izmērs atvērtā veidā', m1_s1_v: '5,9 × 6,54 m',
     m1_s2_l: 'Kopējā platība',       m1_s2_v: '38,58 m²',
-    m1_s3_l: 'Pamatcena',            m1_s3_v: '€19 999',
+    m1_s3_l: 'Pamatcena',            m1_s3_v: '€22 990',
+    m1_s4_l: 'Akcijas cena',         m1_s4_v: '€19 999',
     m2_s1_l: 'Izmērs atvērtā veidā', m2_s1_v: '9,0 × 6,54 m',
     m2_s2_l: 'Kopējā platība',       m2_s2_v: '58,86 m²',
-    m2_s3_l: 'Pamatcena',            m2_s3_v: '€29 999',
+    m2_s3_l: 'Pamatcena',            m2_s3_v: '€33 990',
+    m2_s4_l: 'Akcijas cena',         m2_s4_v: '€29 999',
     m3_s1_l: 'Izmērs atvērtā veidā', m3_s1_v: '11,8 × 6,54 m',
     m3_s2_l: 'Kopējā platība',       m3_s2_v: '77,17 m²',
-    m3_s3_l: 'Pamatcena',            m3_s3_v: '€34 999',
+    m3_s3_l: 'Pamatcena',            m3_s3_v: '€36 990',
+    m3_s4_l: 'Akcijas cena',         m3_s4_v: '€34 999',
     m2_desc: 'Divu istabu plānojums ar atvērtu virtuvi.',
     m3_desc: 'Ģimenes māja no diviem moduļiem — pilnībā aprīkota jau piegādes brīdī.',
 
@@ -83,7 +86,7 @@ const I18N = {
     s4_t: 'UZSTĀDĪŠANA', s4_d: 'Piegāde un montāža objektā vienas dienas laikā.',
 
     cta_title: 'PLĀNOJUMS, KAS<br>PIELĀGOJAS TEV',
-    cta_text: 'No 25 m² studijas līdz 120 m² ģimenes mājai — izvēlies plānojumu no kataloga vai izstrādā savu kopā ar mūsu arhitektiem.',
+    cta_text: 'No 38 m² studijas līdz 77 m² ģimenes mājai — sazinies ar mums, lai izvēlētos plānojumu no kataloga vai izstrādātu savu kopā ar mūsu speciālistiem.',
     cta_btn: 'SKATĪT PLĀNOJUMUS',
 
     contact_eyebrow: 'KONTAKTI',
@@ -160,13 +163,16 @@ const I18N = {
     m1_desc: 'A compact house for living or working in.',
     m1_s1_l: 'Size when opened', m1_s1_v: '5.9 × 6.54 m',
     m1_s2_l: 'Total area',       m1_s2_v: '38.58 m²',
-    m1_s3_l: 'Base price',       m1_s3_v: '€19,999',
+    m1_s3_l: 'Base price',       m1_s3_v: '€22,990',
+    m1_s4_l: 'Promo price',      m1_s4_v: '€19,999',
     m2_s1_l: 'Size when opened', m2_s1_v: '9.0 × 6.54 m',
     m2_s2_l: 'Total area',       m2_s2_v: '58.86 m²',
-    m2_s3_l: 'Base price',       m2_s3_v: '€29,999',
+    m2_s3_l: 'Base price',       m2_s3_v: '€33,990',
+    m2_s4_l: 'Promo price',      m2_s4_v: '€29,999',
     m3_s1_l: 'Size when opened', m3_s1_v: '11.8 × 6.54 m',
     m3_s2_l: 'Total area',       m3_s2_v: '77.17 m²',
-    m3_s3_l: 'Base price',       m3_s3_v: '€34,999',
+    m3_s3_l: 'Base price',       m3_s3_v: '€36,990',
+    m3_s4_l: 'Promo price',      m3_s4_v: '€34,999',
     m2_desc: 'A two-room layout with an open kitchen.',
     m3_desc: 'A family home built from two modules — fully equipped on delivery.',
 
@@ -178,7 +184,7 @@ const I18N = {
     s4_t: 'INSTALLATION', s4_d: 'Delivery and assembly on site within a single day.',
 
     cta_title: 'A LAYOUT THAT<br>ADAPTS TO YOU',
-    cta_text: 'From a 25 m² studio to a 120 m² family home — choose a layout from the catalogue or develop your own with our architects.',
+    cta_text: 'From a 38 m² studio to a 77 m² family home — get in touch to choose a layout from the catalogue or develop your own with our specialists.',
     cta_btn: 'VIEW LAYOUTS',
 
     contact_eyebrow: 'CONTACT',
