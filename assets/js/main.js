@@ -44,7 +44,7 @@ const I18N = {
     f5_d: 'Piegāde visā Eiropā – ērta piegāde līdz galamērķim.',
 
     about_eyebrow: 'PAR MUMS',
-    about_title: 'Mēs radām mājas,<br>kas iedvesmo.',
+    about_title: 'Radām mājas,<br>kas iedvesmo.',
     about_text: 'Ariyo Homes piedāvā modernas moduļu mājas, kas apvieno kvalitāti, ātru uzstādīšanu un pieejamu cenu.',
     about_btn: 'UZZINĀT VAIRĀK',
 
@@ -140,7 +140,7 @@ const I18N = {
     f5_d: 'Delivery across Europe – convenient transport all the way to your site.',
 
     about_eyebrow: 'ABOUT US',
-    about_title: 'We create homes<br>that inspire.',
+    about_title: 'We build homes<br>that inspire.',
     about_text: 'Ariyo Homes builds modern modular homes that combine quality, fast installation and an affordable price.',
     about_btn: 'LEARN MORE',
 

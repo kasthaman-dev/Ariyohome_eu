@@ -433,7 +433,8 @@ ul, ol { padding: 0; list-style: none; }
   flex-direction: column;
   /* top-aligned so the eyebrow labels in both panels sit on one line */
   justify-content: flex-start;
-  padding: clamp(48px, 5vw, 66px) clamp(24px, 3.4vw, 46px);
+  /* tighter at the top so the label + heading sit higher in the panel */
+  padding: clamp(30px, 3.2vw, 42px) clamp(24px, 3.4vw, 46px) clamp(48px, 5vw, 66px);
 }
 .split__text--alt { background: var(--cream-warm); }
 
@@ -450,12 +451,14 @@ ul, ol { padding: 0; list-style: none; }
   line-height: 1.8;
   color: var(--ink-soft);
   margin-top: 22px;
+  /* keeps daylight above the button even when auto margin has none to spare */
+  margin-bottom: 34px;
   max-width: 340px;
   text-wrap: pretty;
 }
 /* auto pushes the button to the foot of the panel, so the buttons in both
    halves of the split line up regardless of how much text sits above */
-.split__text .btn { align-self: flex-start; margin-top: auto; padding-top: 0; }
+.split__text .btn { align-self: flex-start; margin-top: auto; }
 .split__text--alt .eyebrow {
   font-size: 13px;
   letter-spacing: .2em;
