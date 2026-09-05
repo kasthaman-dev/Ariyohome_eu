@@ -127,6 +127,9 @@ ul, ol { padding: 0; list-style: none; }
   transition: background-color .25s var(--ease), color .25s var(--ease),
               border-color .25s var(--ease), transform .25s var(--ease);
 }
+/* letter-spacing adds a trailing gap after the final character, which drags
+   the label visually left of centre; half a letter-space back corrects it */
+.btn { text-indent: .08em; }
 .btn:hover { transform: translateY(-1px); }
 .btn:active { transform: translateY(0); }
 
@@ -428,7 +431,8 @@ ul, ol { padding: 0; list-style: none; }
 .split__text {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  /* top-aligned so the eyebrow labels in both panels sit on one line */
+  justify-content: flex-start;
   padding: clamp(48px, 5vw, 66px) clamp(24px, 3.4vw, 46px);
 }
 .split__text--alt { background: var(--cream-warm); }
@@ -449,7 +453,9 @@ ul, ol { padding: 0; list-style: none; }
   max-width: 340px;
   text-wrap: pretty;
 }
-.split__text .btn { align-self: flex-start; margin-top: 32px; }
+/* auto pushes the button to the foot of the panel, so the buttons in both
+   halves of the split line up regardless of how much text sits above */
+.split__text .btn { align-self: flex-start; margin-top: auto; padding-top: 0; }
 .split__text--alt .eyebrow {
   font-size: 13px;
   letter-spacing: .2em;
@@ -1061,4 +1067,47 @@ ul, ol { padding: 0; list-style: none; }
 @media print {
   .site-header, .burger, .lang, .hero__scrim, .cta__scrim { display: none !important; }
   body { background: #fff; color: #000; }
+}
+
+/* --- Card spec list (size / area / price) --------------------------------- */
+.card__specs {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  /* auto keeps the block pinned to the bottom of the card, the job the
+     rooms row used to do */
+  margin: auto 0 0;
+  padding-top: 15px;
+  border-top: 1px solid var(--line);
+  font-size: 13.5px;
+  line-height: 1.4;
+}
+.card__specs > div {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 14px;
+}
+.card__specs dt { color: var(--ink-faint); }
+.card__specs dd {
+  margin: 0;
+  text-align: right;
+  color: var(--ink);
+  font-weight: 500;
+  white-space: nowrap;
+}
+.card__specs .is-price dd {
+  font-family: var(--font-display);
+  font-size: 17px;
+  font-weight: 600;
+  letter-spacing: .03em;
+  color: var(--olive);
+}
+
+/* The line break is explicit, so max-content sizes the box to its widest
+   line — the rule then stops exactly where that line's text ends instead of
+   running on to the full column width. */
+.split__text--alt .eyebrow--rule {
+  width: max-content;
+  max-width: 100%;
 }
