@@ -1114,3 +1114,19 @@ ul, ol { padding: 0; list-style: none; }
   width: max-content;
   max-width: 100%;
 }
+
+/* Hand-drawn marker ring around the promotional price. Drawn in CSS rather
+   than markup so switching language (which rewrites the text) keeps it. */
+.card__specs .is-price dd {
+  position: relative;
+  z-index: 0;
+}
+.card__specs .is-price dd::before {
+  content: "";
+  position: absolute;
+  inset: -7px -13px;
+  z-index: -1;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 160 60' preserveAspectRatio='none'%3E%3Cpath d='M138 14C120 5 60 3 30 12 8 19 6 38 30 47c30 10 95 8 118-5 14-8 10-24-16-32' fill='none' stroke='%237A8A46' stroke-width='2.6' stroke-linecap='round'/%3E%3C/svg%3E") center / 100% 100% no-repeat;
+  transform: rotate(-1.2deg);
+  pointer-events: none;
+}
